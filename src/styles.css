@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.testing-enter {
+  opacity: 0.01;
+  transform: scale(1.1);
+}
+
+.testing-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 300ms ease-out;
+}
+
+.transform-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.transform-exit-active {
+  opacity: 0.01;
+  transform: scale(1.1);
+  transition: all 300ms ease-out;
+}
